@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpg" type="image/icon type">
+    <title>Damask Menu</title>
+    <style>
+        body{
+            background-color: #171717;
+        }
+        h1{
+            padding-top: 1em;
+            color: #E6B32F;
+            font-size: 40px;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: 5px;
+            text-align: center;
+
+            
+        }
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #men{
+            width: 700px;
+            padding: 0 3em;
+        }
+        @media screen and (max-width: 800px){
+            .menu{
+                flex-direction: column;
+            }
+            #men{
+                width: 100%;
+                padding: 2px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Menu
+    </h1>
+    <br>
+    <div class="menu">   
+        <img id="men" src="buka.jpg">
+        <img id="men" src="pijet.jpg">
+    </div>
+</body>
+</html>
